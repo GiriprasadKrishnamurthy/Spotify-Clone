@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPOTIFY CLONE</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+    <!-- <link rel="stylesheet" media="only screen and (max-width:1280px)" href="../CSS/responsive.css"> -->
+    <link rel="stylesheet" media="only screen and (max-width:1190px)" href="../CSS/responsive.css">
+    <link rel="stylesheet" media="only screen and (max-width:585px)" href="../CSS/responsive.css">
+    <link rel="stylesheet" media="only screen and (max-width:480px)" href="../CSS/responsive.css">
+</head>
+
+<body>
+    <nav class="n">
+
+        <div class="image">
+            <li><img src="../IMG/spotify.png" id="image"></li>
+        </div>
+        <div class="a">
+            <div class="heading">
+                <h1>SPOTIFY</h1>
+            </div>
+            <div class="text_nav">
+                <li class="nav_content">HOME</li>
+                <li class="nav_content" id="li2">ABOUT</li>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container" id="container">
+        <h2 class="hd1">BEST OF LATA MANGESHKAR</h2>
+        <div class="songs">
+            <div class="flex">
+                <div class="SONG_LIST">
+                    <div class="song"> <span class="k">LAG JA GALE </span><span class="s1"> <i id="1" class="fa-solid song-item-play fa-circle-play"></i></span></div>
+                    <div class="song"> <span class="k">KABHI KUSHI KABHI GHAM</span><span class="s2"> <i id="2" class="fa-solid song-item-play fa-circle-play"></i></span></div>
+                    <div class="song"> <span class="k">RAMA RATHANA DHAN PAYO </span><span class="s3"> <i id="3" class="fa-solid song-item-play fa-circle-play"></i></span></div>
+                    <div class="song"> <span class="k">CHHOD DE SARI DUNIYA</span><span class="s4"> <i id="4" class="fa-solid song-item-play fa-circle-play"></i></span></div>
+                    <div class="song"> <span class="k">BHAI BHATUR</span><span class="s5"> <i id="5" class="fa-solid song-item-play fa-circle-play"></i></span></div>
+
+
+                </div>
+
+
+                <div class="SONG_BANNER">
+                    <img src="../IMG/Latha Mangeshkar.gif" class="img">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="bottom">
+
+        <div class="slidecontainer">
+            <input type="range" name="progress" id="myProgressBar" min="0" value="0" max="100">
+        </div>
+
+        <!-- <i class="fa-regular song-item-play fa-circle-play"></i> -->
+        <!-- <svg src="../Isong-item-play MG/circle-play-regular.svg"></svg> -->
+        <!-- <object data="../Isong-item-play MG/circle-play-regular (1).svg" class="svg"> </object> -->
+        <div class="playback-options">
+            <span class="playing"><img src="../IMG/playing.gif" id="playing2" class="playing1"></span>
+            <i class="fa-solid fa-backward-step" id="previous"></i>
+            <i class="fa-solid song-item-play fa-circle-play" id="masterPlay"></i>
+            <i class="fa-solid fa-forward-step next" id="next"></i>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/7db35bfa00.js" crossorigin="anonymous"></script>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>

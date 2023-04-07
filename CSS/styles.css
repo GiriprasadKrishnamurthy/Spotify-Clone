@@ -1,0 +1,192 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.n {
+    top: 0;
+    display: flex;
+    background-color: black;
+    height: 10vh;
+    /* color: #51b96a; */
+    /* position: sticky; */
+}
+
+#image {
+    width: 4vw auto;
+    height: 10vh;
+}
+
+.heading {
+    margin: auto;
+    height: auto;
+    font-size: 2vh;
+    width: 10vw;
+    font: bolder;
+    margin-left: 5vw;
+    /* margin-left: 12vh; */
+    width: 80vw;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.nav_content {
+    color: white;
+    font-size: 3vh;
+    width: 10vw;
+    margin-top: 0;
+    list-style: none;
+    margin-left: 0;
+}
+
+.text_nav {
+    display: flex;
+    margin-top: 3vh;
+}
+
+.hd1 {
+    height: 5vh;
+    width: 100vw;
+    font: bolder;
+    /* color: #51b96a; */
+    text-align: center;
+}
+
+.container {
+    min-height: 75vh;
+    background-color: magenta;
+    display: flex;
+    flex-direction: column;
+    /* position: sticky */
+}
+
+.flex {
+    display: flex;
+}
+
+.songs {
+    display: flex;
+    position: relative;
+}
+
+.song {
+    display: flex;
+}
+
+.SONG_LIST {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.song {
+    /* background-color: white; */
+    width: 40vw;
+    height: 4vh;
+    color: white;
+    margin-top: 5vh;
+    margin-left: 5vh;
+    border-radius: 1vh;
+    background-color: #755922;
+}
+
+.k {
+    margin-left: 0;
+    width: 20vw;
+}
+
+.s1 {
+    margin-right: 0;
+    align-content: center;
+    justify-content: center;
+    margin-left: 20vw;
+}
+
+.s2 {
+    margin-left: 20vw;
+}
+
+.s3 {
+    margin-left: 20vw;
+}
+
+.s4 {
+    margin-left: 20vw;
+}
+
+.s5 {
+    margin-left: 20vw;
+}
+
+.SONG_BANNER {
+    /* margin-left: vw; */
+    width: 30vw;
+    height: 45vh;
+    /* min-height: 75vh; */
+}
+
+.img {
+    margin-top: 2vh;
+    width: 30vw;
+    height: 45vh;
+}
+
+.bottom {
+    position: sticky;
+    background-color: black;
+    height: 15vh;
+    display: flex;
+    /* display: flex; */
+    bottom: 0;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+#myProgressBar {
+    width: 60vw;
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    cursor: pointer;
+    transition: .2s;
+    /* webkit-appearance: none;  */
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+}
+
+.playing {
+    margin-left: 0vw;
+}
+
+.playing1 {
+    margin-left: 0vw;
+    width: 5vw;
+    height: 5vh;
+    transition-delay: 1s;
+    /* opacity: 0; */
+}
+
+.playback-options {
+    color: white;
+    font-size: 4.5vh;
+    align-content: center;
+    justify-content: center;
+}
+
+.play-image {
+    width: 2vw;
+    height: 2vw;
+    /* background-color: black; */
+}
+
+.play-image-prev {
+    /* margin-top: vw; */
+    width: 2vw;
+    height: 2vw;
+}
